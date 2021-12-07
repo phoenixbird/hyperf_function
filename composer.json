@@ -1,0 +1,26 @@
+{
+  "name": "chaoji/hyperf_function",
+  "description": "this is a helper function",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "phoenix",
+      "email": "chaojilsp2012@163.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.4",
+    "hyperf/utils": "~2.2.0",
+    "hyperf/logger": "~2.2.0",
+    "ext-json": "*"
+  },
+  "autoload": {
+    "files": [
+      "src/function.php"
+    ],
+    "psr-4": {
+      "Chaoji\\Hyperf\\": "src/"
+    }
+  }
+}
